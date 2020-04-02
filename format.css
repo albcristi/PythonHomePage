@@ -329,4 +329,121 @@ Text under boxes..
     text-decoration-color: #ffd343;
 }
 
+/*
+Main Content
+ */
+/*
+First Row
+ */
+.firstRow{
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+}
+ .firstRowImage{
+     width: 40px;
+     height: 40px;
+ }
+ 
+ .firstRowImage, .rightToImage{
+     float: left;
+ }
+ 
+.getStarted, .downloadClass, .docsClass, .jobsClass{
+    width: 25%;
+    border-top: 3px #3776ab solid;
+    margin-left: 3%;
+    padding-top: 1.5%;
+}
 
+.rightToImage{
+    margin-left: 4px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.mainText{
+    float: left;
+    margin-top: 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.blueText{
+    float: left;
+    font-family: sans-serif;
+    color: #365083;
+}
+
+/*
+Second row
+ */
+
+.secondRow{
+    margin-top: 4%;
+    margin-left: 10%;
+    width: 100%;
+    display: flex;
+}
+
+.latestNews, .upcomingEvents{
+    margin-left: 4%;
+    border-top: 3px #3776ab solid;
+}
+/*
+title related
+ */
+.containerTitleLatestNews, .containerTitleEvents{
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+}
+
+.titleText{
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: fill;
+    box-sizing: inherit;
+}
+
+.titleText{
+    margin-right: 59px;
+}
+.moreText {
+    font-family: sans-serif;
+    color: lightslategrey;
+}
+
+.containerTitleLatestNews .moreText{
+    margin-left: auto;
+}
+.containerTitleEvents .moreText{
+    margin-left: auto;
+}
+
+.smallRow{
+    display: flex;
+    border-top: 1px dimgrey solid;
+    margin-right: auto;
+}
+
+
+.date, .associatedText{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.associatedText{
+    color: #365083;
+    margin-left: 40px;
+}
